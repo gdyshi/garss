@@ -128,9 +128,9 @@ def get_email_list():
 
 def main():
     readme_md = replace_readme()
-    content = markdown.markdown(readme_md, extensions=['tables', 'fenced_code'])
-    email_list = get_email_list()
-    send_mail(email_list, "嘎!RSS订阅", content)
+    #content = markdown.markdown(readme_md, extensions=['tables', 'fenced_code'])
+    #email_list = get_email_list()
+    #send_mail(email_list, "嘎!RSS订阅", content)
 
 
 main()
